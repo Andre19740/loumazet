@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Lou Mazet - Location de vacances</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Le Lou Mazet</h1>
+        <p>Bienvenue dans notre maison de vacances. Réservez votre séjour en direct ici !</p>
+    </header>
+    <section id="gallery">
+        <h2>Galerie</h2>
+        <div class="images">
+            <img src="https://via.placeholder.com/400x300" alt="Photo de la maison">
+            <img src="https://via.placeholder.com/400x300" alt="Pièce principale">
+            <img src="https://via.placeholder.com/400x300" alt="Jardin ou piscine">
+        </div>
+    </section>
+    <section id="description">
+        <h2>A propos</h2>
+        <p>
+            Cette page vitrine présente brièvement votre hébergement. Remplacez ce texte par la description de
+            votre annonce AirBnB si vous en êtes le propriétaire. Ajoutez des informations utiles pour vos
+            visiteurs : équipements, situation géographique, activités à proximité, etc.
+        </p>
+    </section>
+    <section id="booking">
+        <h2>Demande de réservation</h2>
+        <form id="booking-form">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="dates">Dates souhaitées</label>
+            <input type="text" id="dates" name="dates" placeholder="Du JJ/MM/AAAA au JJ/MM/AAAA" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2023 Le Lou Mazet</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
